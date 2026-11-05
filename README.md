@@ -1,8 +1,8 @@
 # Lean for Ghostwrite
 
 A [Ghostwrite](https://github.com/ghostwrite-dev/ghostwrite) plugin for [Lean 4](https://lean-lang.org):
-`.lean` files, served by `lake serve` if it's on your PATH, with the goals in a panel beside the
-file (`space v` shows or hides it), colored by Lean's tokens, and with its abbreviations (`\to` is
+`.lean` files, served by `lake serve` if it's on your PATH, with the goals in a view beside the
+file (`space g` goes there, and back), colored by Lean's tokens, and with its abbreviations (`\to` is
 `→`).
 
 Its code colors Lean and says what its goals panel shows, and reaches nothing at all.

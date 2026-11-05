@@ -1,6 +1,6 @@
 {
   "name": "lean",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "api": 1,
   "code": "lean.wasm",
   "extensions": ["lean"],
@@ -10,6 +10,6 @@
   "abbreviations": "abbreviations.tsv",
   "servers": [{ "name": "lean", "command": ["lake", "serve"], "roots": ["lakefile.lean", "lakefile.toml", "lean-toolchain"] }],
   "tokens": { "leanSorryLike": "constant.builtin" },
-  "panel": { "title": "Lean", "requests": ["$/lean/plainGoal", "$/lean/plainTermGoal"], "notifications": ["$/lean/fileProgress"] },
-  "keys": [{ "keys": "space v", "command": "preview", "what": "show or hide the goals" }]
+  "views": [{ "name": "goals", "title": "Goals", "shows": "blocks", "place": "beside", "key": "space g" }],
+  "panel": { "requests": ["$/lean/plainGoal", "$/lean/plainTermGoal"], "notifications": ["$/lean/fileProgress"] }
 }
