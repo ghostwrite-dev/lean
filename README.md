@@ -38,4 +38,4 @@ sha256 in `lean-<version>.zip.sha256`.
 
 ## License
 
-MIT or Apache-2.0, at your option: see [LICENSE-MIT](LICENSE-MIT) and [LICENSE-APACHE](LICENSE-APACHE).
+MIT: see [LICENSE](LICENSE).
