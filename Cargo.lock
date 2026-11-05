@@ -28,7 +28,7 @@ checksum = "77ce24cb58228fbb8aa041425bb1050850ac19177686ea6e0f41a70416f56fdb"
 
 [[package]]
 name = "ghostwrite-lean-plugin"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "ghostwrite-plugin-api",
  "serde_json",
@@ -38,7 +38,7 @@ dependencies = [
 [[package]]
 name = "ghostwrite-plugin-api"
 version = "0.2.0"
-source = "git+https://github.com/ghostwrite-dev/ghostwrite?tag=plugin-api-v2.0.0#91939af2a14c17ae4c1100dec3e078d0fe7140be"
+source = "git+https://github.com/ghostwrite-dev/ghostwrite?tag=plugin-api-v1.0.0#197d99a7df75a34274719cc2efdc71d6eb9469df"
 dependencies = [
  "wit-bindgen",
 ]
