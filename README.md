@@ -38,4 +38,4 @@ sha256 in `lean-<version>.zip.sha256`.
 
 ## License
 
-MIT: see [LICENSE](LICENSE).
+Mozilla Public License 2.0: see [LICENSE](LICENSE).
